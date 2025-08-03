@@ -1,3 +1,5 @@
+
+```mermaid
 graph TD
     A["🚀 Landing Page<br/>Ana Sayfa"] --> B{"👤 Kullanıcı<br/>Kayıtlı mı?"}
 
@@ -15,13 +17,16 @@ graph TD
     H -->|"Hayır"| I["➕ Yeni Roadmap<br/>Oluştur"]
     H -->|"Evet"| J["📋 Mevcut Roadmapleri<br/>Görüntüle"]
 
+```
+
+```mermaid
 graph TD
     I["➕ Yeni Roadmap<br/>Oluştur"] --> K["🎯 İlgi Alanı<br/>Seçimi"]
     K --> L["🤖 AI ile Roadmap<br/>Oluşturma"]
     L --> M["📊 Kişiselleştirilmiş<br/>Roadmap"]
 
     M --> N["💬 AI Chat<br/>Mentörlük"]
-    J --> N
+    J["📋 Mevcut Roadmapleri<br/>Görüntüle"] --> N
 
     N --> O["📈 İlerleme<br/>Takibi"]
     O --> P["🏆 Başarımlar<br/>Kazanma"]
