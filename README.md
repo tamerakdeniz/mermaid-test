@@ -15,7 +15,9 @@ graph LR
 
     H -->|"Hayır"| I["➕ Yeni Roadmap<br/>Oluştur"]
     H -->|"Evet"| J["📋 Mevcut Roadmapleri<br/>Görüntüle"]
-
+```
+```mermaid
+graph LR
     I --> K["🎯 İlgi Alanı<br/>Seçimi"]
     K --> L["🤖 AI ile Roadmap<br/>Oluşturma"]
     L --> M["📊 Kişiselleştirilmiş<br/>Roadmap"]
