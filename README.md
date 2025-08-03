@@ -1,6 +1,6 @@
 ```mermaid
 graph LR
-    A["🚀 Landing Page<br/>Ana Sayfa"] --> B{"👤 Kullanıcı<br/>Kayıtlı mı?"}
+    A["🚀 Ana Sayfa"] --> B{"👤 Kullanıcı<br/>Kayıtlı mı?"}
 
     B -->|"Hayır"| C["📝 Sign Up"]
     B -->|"Evet"| D["🔑 Sign In"]
