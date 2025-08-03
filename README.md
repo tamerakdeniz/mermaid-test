@@ -18,12 +18,14 @@ graph LR
 ```
 ```mermaid
 graph LR
-    I --> K["🎯 İlgi Alanı<br/>Seçimi"]
+    G["🏠 Dashboard"]
+    I["➕ Yeni Roadmap"] --> K["🎯 İlgi Alanı<br/>Seçimi"]
+
     K --> L["🤖 AI ile Roadmap<br/>Oluşturma"]
     L --> M["📊 Kişiselleştirilmiş<br/>Roadmap"]
 
     M --> N["💬 AI Chat<br/>Mentörlük"]
-    J --> N
+
 
     N --> O["📈 İlerleme<br/>Takibi"]
     O --> P["🏆 Başarımlar<br/>Kazanma"]
